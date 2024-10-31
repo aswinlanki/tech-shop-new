@@ -1,0 +1,367 @@
+.header{
+    display: flex;
+    background-color: rgb(20, 22, 22);
+    width: 100%;  
+    /* justify-content: space-around; */
+
+   
+}
+
+.h1{
+    float: left;
+    color: silver;
+    padding-left: 20px;
+}
+    
+.logo ul{ 
+    
+    display: flex;
+    gap: 50px;
+    float: left;
+    text-decoration: none;
+    padding-left: 1000px;
+}
+.logo ul li{
+    list-style: none;
+} 
+.search i {
+    color: gray;
+}
+.cart i {
+    color: gray;
+}
+.user i {
+    color: gray;
+
+} 
+/* /////////////// */
+.photo img{
+    width: 150px;
+    /* border: 1px solid silver; */
+    background-color: rgb(28, 32, 32);
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 170px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+
+
+}
+
+  .pic1{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+padding-top: 10px;
+}
+
+    .h1{ padding-left: 30px;
+        padding-bottom: 30px;
+    
+    }
+
+  .pic2{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  } 
+  .pic3{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }  
+  .pic4{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }  
+  .h2{ padding-left: 30px;
+    padding-bottom: 10px;
+    color: silver;
+}.h3{ padding-left: 30px;
+    padding-bottom: 10px;
+    color: silver;
+}.h4{ padding-left: 30px;
+    padding-bottom: 10px;
+    color: silver;
+}
+.line{
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.smallpic{
+    background-color: rgb(28, 32, 32); 
+    margin-left: 50px;
+}
+.fa-trash{
+    color: white;
+    padding-left: 20px;
+}
+.information h1{
+    color: silver;
+
+
+}
+.information h2{
+    color: silver;
+}
+.photo{
+    display: flex;
+    background-color: rgb(20 22, 22);
+    padding-top: 20px;
+    padding-bottom: 250px;
+
+}
+.information{
+padding-left: 150px;
+}
+.ss{
+    background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top:50px ;
+
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.ss a{
+    text-decoration: none;
+    color: white;
+}
+.line1{
+    color: silver;
+}
+/* //////////////////// */
+our{
+    background-color: rgb(20, 22, 22);
+    color: silver;
+    text-align: center;
+    padding: 100px;
+}
+.info{
+    display: flex;
+    text-align: center; 
+    gap: 200px;
+    background-color: rgb(20, 22, 22);
+
+}
+.express h1{
+    padding-left: 15px;
+    color: silver;
+
+}
+.brand h1{
+    color: silver;
+
+}
+.deals h1{
+    color: silver;
+
+}
+.payment h1{
+    color: silver;
+
+}
+ .fa-truck{
+    color: red;
+}
+.fa-shield-halved{
+    color: red;
+}
+.fa-tags{
+    color: red;
+}
+.fa-credit-card{
+    color: red;
+}
+.info div{
+    color: gray;
+}
+.footer{
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    padding-top: 40px;
+}
+.shop{
+    padding-left: 30px;
+}
+.shop h1{
+    color: silver;
+}
+.shop p{
+    color: gray;
+
+}
+.text{
+    padding: 10px;
+    padding-right: 20px;
+    background-color: black;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    color: white;
+}
+.sub{
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.sub a{
+    text-decoration: none;
+    color: white;
+ }
+ .help h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .help ul a{
+    text-decoration: none;
+
+ }
+ .help ul li{
+    list-style: none;
+    color: gray;
+ }
+ .policies1 h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .policies1 ul a{
+    text-decoration: none;
+ }
+ .policies1 ul li{
+    list-style: none;
+    color: gray;
+ }
+ .company h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .company ul a{
+    text-decoration: none;
+ }
+ .company ul li{
+    list-style: none;
+    color: gray;
+ }
+ .aswin{
+    padding-left: 20px;
+    display: flex;
+    color: silver;
+    background-color: black;
+    gap: 50px;
+    padding-top: 20px;
+ }
+ .icons ul{
+     display: flex;
+        gap: 50px;
+        float: left;
+        text-decoration: none;
+        padding-left: 700px;
+    }
+    .icons ul li{
+        list-style: none;
+        
+    }
+    .fa-instagram{
+        color: white;
+    }
+    .fa-facebook-f{
+        color: white;
+    }
+    .fa-square-twitter{
+        color: white;
+    }
+    .fa-linkedin-in{
+        color: white;
+    }
+ .aswin{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+ }
+ .p span{
+    color: red;
+ }
+.smallpic{
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.aswin span{
+    color: red;
+}
+.oo span{
+    color: green;
+
+}
+.pp span{
+    color: green;
+}
+.bb a{
+    text-decoration: none;
+    color: silver;
+}
+/* .mainbutton{
+    display: flex;
+}
+.mainbutton .qq a{
+    text-decoration: none;
+    color: white;
+    
+}
+.mainbutton .qq{
+    background-color: black;
+    border: 1px solid black;
+    
+}
+.mainbutton .qq a{
+    text-decoration: none;
+    color: white;
+    
+}
+.mainbutton .qq{
+    background-color: black;
+    border: 1px solid black;
+    
+}
+.mainbutton .ww a{
+    text-decoration: none;
+    color: white;
+    
+}
+.mainbutton .ee{
+    background-color: black;
+    border: 1px solid black;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

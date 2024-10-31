@@ -1,0 +1,527 @@
+.header{
+    display: flex;
+    background-color: rgb(20, 22, 22);
+    width: 100%;  
+}
+/* .body{
+    background-color: rgb(20, 22, 22);
+} */
+.h1{
+    float: right;
+    color: silver;
+    padding-left: 20px;
+    
+
+}
+.logo ul{ 
+    display: flex;
+    gap: 50px;
+    float: left;
+    text-decoration: none;
+    padding-left: 1000px;
+}
+.logo ul li{
+    list-style: none;
+}
+.search i {
+    color: gray;
+}
+.cart i {
+    color: gray;
+}
+.user i {
+    color: gray;
+
+}
+/*..........body.........*/
+
+.photo img{
+    width: 130px;
+    border: 1px solid silver;
+    background-color: rgb(20, 22, 22);
+    border-radius: 5px;
+    margin-left: 20px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+
+
+}
+.pic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.photo{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(20, 22, 22);
+}
+.photo .bigpic img{
+    width: 600px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.fa-star{
+    color: red;
+}
+.information h1{
+    color: silver;
+    margin-top: 30px;
+}
+.information h2{
+    color: silver;
+}
+.information{
+    margin-left: 50px;
+}
+.ph{
+    color: gray;
+    padding-bottom: 20px;
+}
+.line{
+      border: none;
+        height: 1px;
+        background-color: gray;
+        margin-bottom: 20px;
+        margin-bottom: 20px ;
+}
+.photo{
+    display: flex;
+}
+.smallpic{
+    flex-direction: column;
+}
+.bigpic img{
+    border: 1px solid rgb(20, 22, 22);
+}
+.num{
+    color: silver;
+}
+.num s{
+    color: gray;
+}
+.stock{
+    color: green;
+}
+.stock .ss a{
+    text-decoration:none ;
+    padding: 20px;
+    color: white;
+
+}
+.ss{
+    margin-left: 150px;
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.taxes{
+    color: gray;
+    margin-bottom: 30px;
+}
+.offer h2{
+    margin-bottom: 80px;
+    color: silver;
+
+}
+.text{
+    background-color: rgb(20, 22, 22);
+    color: gray;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.text1{
+    background-color: rgb(20, 22, 22);
+    color: gray;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+.aa a{
+    text-decoration: none;
+    color: white;
+}
+.aa{
+    background-color: red;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+.work{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    /* margin-left: 500px;
+    margin-right: 500px; */
+    background-color: rgb(20, 22, 22);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.all a{
+    text-decoration: none;
+    color: white;
+}
+.all{
+    background-color: red;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-left: 400px;
+
+}
+.view{
+    color: silver;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.review{
+    color: silver ;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.help a{
+    text-decoration: none;
+}
+
+.policies a{
+    text-decoration: none;
+}
+.brands{
+    display: flex;
+    background-color: rgb(20, 22, 22);
+    /* color: silver; */
+}
+.help ul li{
+    list-style: none;
+    color: silver;
+
+}
+.policies ul li{
+    list-style: none;
+    color: silver;
+}
+.policies{
+    padding-left: 230px;
+}
+.help{
+    padding-left: 20px;
+}
+.heading{
+    text-align: center;
+    background-color: rgb(20, 22, 22);
+    color: silver;
+     padding-top: 50px;
+    padding-bottom: 50px; 
+} 
+/* iteams */
+.products .products1{
+    display: flex;
+    background-color: rgb(20, 22, 22);
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+     */
+}
+.products1 img{
+    width: 100%;
+}
+.products1 div{
+    color: gray;
+    border: 2px solid gray;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+.products1 a{
+    text-decoration: none;
+    text-align: center;
+   
+}
+    
+
+.JBLLive h1{
+    color: silver;
+    
+} 
+.JBLLive p{
+    color: gray;
+}
+.line1{
+    border: none;
+    height: 1px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.ss{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 10px; 
+    margin-left: 80px;
+
+}
+.ss a{
+    text-decoration: none;
+    color: white;
+
+}
+.sss a{
+    text-decoration: none;
+    color: white;
+}
+.sss{
+    background-color: green;
+    padding-left:20px;
+    padding-right: 30px;
+    margin-left: 80px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+ .JBLLive img{
+    width: 350px;
+ }
+.Rockerz518 img{
+    width: 350px;
+} 
+.Rockerz518 h1{
+    color: silver;
+
+}
+.Rockerz518 p{
+    color: gray;
+}
+.boat410b h1{
+    color: silver;
+}
+.boat410b p{
+    color:gray ;
+}
+.boat410b .ss{
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 50px;
+}
+.boat410b img{
+    padding-bottom: 50px;
+    width: 350px;
+}
+.sony h1{
+    color: silver;
+}
+
+.sony p{
+    color: gray;
+}
+.products1 .fa-star{
+    
+}
+.star{ 
+    margin-left: 10px;
+}
+/* ............................... */
+
+.our{
+    background-color: rgb(20, 22, 22);
+    color: silver;
+    text-align: center;
+    padding: 100px;
+}
+.info{
+    display: flex;
+    text-align: center; 
+    gap: 200px;
+    background-color: rgb(20, 22, 22);
+
+}
+.express h1{
+    padding-left: 15px;
+    color: silver;
+
+}
+.brand h1{
+    color: silver;
+
+}
+.deals h1{
+    color: silver;
+
+}
+.payment h1{
+    color: silver;
+
+}
+ .fa-truck{
+    color: red;
+}
+.fa-shield-halved{
+    color: red;
+}
+.fa-tags{
+    color: red;
+}
+.fa-credit-card{
+    color: red;
+}
+.info div{
+    color: gray;
+}
+.footer{
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    padding-top: 40px;
+}
+.shop{
+    padding-left: 30px;
+}
+.shop h1{
+    color: silver;
+}
+.shop p{
+    color: gray;
+
+}
+.text{
+    padding: 10px;
+    padding-right: 20px;
+    background-color: black;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    color: white;
+}
+.sub{
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.sub a{
+    text-decoration: none;
+    color: white;
+ }
+ .help h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .help ul a{
+    text-decoration: none;
+
+ }
+ .help ul li{
+    list-style: none;
+    color: gray;
+ }
+ .policies1 h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .policies1 ul a{
+    text-decoration: none;
+ }
+ .policies1 ul li{
+    list-style: none;
+    color: gray;
+ }
+ .company h1{
+    color: silver;
+    padding-left: 40px;
+
+ }
+ .company ul a{
+    text-decoration: none;
+ }
+ .company ul li{
+    list-style: none;
+    color: gray;
+ }
+ .aswin{
+    padding-left: 20px;
+    display: flex;
+    color: silver;
+    background-color: black;
+    gap: 50px;
+    padding-top: 20px;
+ }
+ .icons ul{
+     display: flex;
+        gap: 50px;
+        float: left;
+        text-decoration: none;
+        padding-left: 700px;
+    }
+    .icons ul li{
+        list-style: none;
+        
+    }
+    .fa-instagram{
+        color: white;
+    }
+    .fa-facebook-f{
+        color: white;
+    }
+    .fa-square-twitter{
+        color: white;
+    }
+    .fa-linkedin-in{
+        color: white;
+    }
+ .aswin{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+ }
+ .p span{
+    color: red;
+ }
+ .aswin span{
+    color: red;
+}
+.bb a{
+    text-decoration: none;
+    color: silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
